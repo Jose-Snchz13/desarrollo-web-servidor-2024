@@ -4,20 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
+    <style>
+        th, td{
+            border:2px solid black;
+        }
+        table{
+            border:2px solid black
+        }
+    </style>
 </head>
 <body>
-    <?php
-    $numero = "a";
-
-    if($numero > 0) echo "<p>El numero $numero es positivo</p>";
-    if($numero < 0):
-        echo "<p>El número $numero es negativo</p>";
-    endif;
-    if($numero > 0) {
-        echo "El numero $numero es positivo";
-    }else {
-        echo "<p>El número $numero es negativo</p>";
-    }
-    ?>
+    <table>
+        <thead>
+            <tr>
+                <th>Página</th>
+                <th>Contenido</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <a href="numeros.php">números.php</a>
+                </td>
+                <td>Ejercicios de coparaciones con numeros</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="fechas.php">fechas.php</a>
+                </td>
+                <td>Ejercicios de fechas</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
