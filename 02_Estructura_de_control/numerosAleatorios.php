@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-        $n = rand(1,10);
+        $n = rand(1,3);
         switch ($n) {
             case 1:
                 echo "<p>El número aleatorio es 1</p>";
@@ -19,13 +19,19 @@
                 echo "<p>El número aleatorio es 3</p>";
                 break;
         }
+        $res = match ($n) {
+             1=> "<p>El número aleatorio es 1</p>",
+             2=> "<p>El número aleatorio es 2</p>",
+             default => "<p>El número aleatorio es 3</p>"
+        };
+        echo $res;
         $par = $n%2;        
         switch ($par) {
             case 0:
                 echo "<p>El número aleatorio $n es par</p>";
                 break;                         
             default:
-                echo "<p>El número aleatorio $n es impar</p>";
+                echo "<p>El número aleatorio es impar</p>";
                 break;
         }
     ?>
