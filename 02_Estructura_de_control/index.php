@@ -40,6 +40,12 @@
                 </td>
                 <td>Ejercicios de Numeros Aleatorios</td>
             </tr>
+            <tr>
+                <td>
+                    <a href="clases_semana.php">clases_semana.php</a>
+                </td>
+                <td>Ejercicios de Clases aleatorias</td>
+            </tr>
         </tbody>
     </table>
 </body>
