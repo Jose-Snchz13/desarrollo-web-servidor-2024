@@ -8,7 +8,7 @@
 <body>
     <?php
         echo date("l/j/m/y");
-        if(date ("j")%2==0) echo "<p>Es par</p>";
+        if(date ("j") % 2 == 0) echo "<p>Es par</p>";
         else echo "<p>Es impar</p>";
     ?>
 </body>
