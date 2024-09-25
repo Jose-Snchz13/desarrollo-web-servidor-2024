@@ -27,5 +27,15 @@
         endwhile;
     echo "</ul>";
     ?>
+    <h3>Otra forma de hacer un while</h3>
+    <?php
+    $i = 1;
+    echo "<ul>";
+        do {
+            echo "<li>$i</li>";
+            $i++;
+        } while ($i <= 10);
+    echo "</u>";
+    ?>
 </body>
 </html>

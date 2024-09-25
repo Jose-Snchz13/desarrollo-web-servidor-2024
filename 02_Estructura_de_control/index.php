@@ -54,7 +54,7 @@
             </tr>
             <tr>
                 <td>
-                    <a href="listas.php">listas.php</a>
+                    <a href="listas.php">litas.php</a>
                 </td>
                 <td>Ejercicios de listas</td>
             </tr>
