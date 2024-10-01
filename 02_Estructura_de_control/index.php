@@ -70,6 +70,12 @@
                 </td>
                 <td>Ejercicios con array</td>
             </tr>
+            <tr>
+                <td>
+                    <a href="ejercicio2.php">ejercicio2.php</a>
+                </td>
+                <td>Ejercicios con array</td>
+            </tr>
         </tbody>
     </table>
 </body>
