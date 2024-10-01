@@ -58,6 +58,18 @@
                 </td>
                 <td>Ejercicios de listas</td>
             </tr>
+            <tr>
+                <td>
+                    <a href="Ejercicio1.php">Ejercicio1.php</a>
+                </td>
+                <td>Ejercicios</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="arrays.php">Arrays.php</a>
+                </td>
+                <td>Ejercicios con array</td>
+            </tr>
         </tbody>
     </table>
 </body>
