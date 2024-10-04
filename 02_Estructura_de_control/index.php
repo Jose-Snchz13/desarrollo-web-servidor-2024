@@ -76,6 +76,12 @@
                 </td>
                 <td>Ejercicios con array</td>
             </tr>
+            <tr>
+                <td>
+                    <a href="matrices.php">matrices.php</a>
+                </td>
+                <td>Ejercicios con matrices</td>
+            </tr>
         </tbody>
     </table>
 </body>
