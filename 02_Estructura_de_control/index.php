@@ -64,24 +64,6 @@
                 </td>
                 <td>Ejercicios</td>
             </tr>
-            <tr>
-                <td>
-                    <a href="arrays.php">Arrays.php</a>
-                </td>
-                <td>Ejercicios con array</td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="ejercicio2.php">ejercicio2.php</a>
-                </td>
-                <td>Ejercicios con array</td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="matrices.php">matrices.php</a>
-                </td>
-                <td>Ejercicios con matrices</td>
-            </tr>
         </tbody>
     </table>
 </body>
