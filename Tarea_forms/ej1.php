@@ -27,8 +27,8 @@
             $n1 = (int)$_POST["n1"];
             $n2 = (int)$_POST["n2"];
             $n3 = (int)$_POST["n3"];
-            if(n1>n2 && n1>n3) echo "El primer numero introducido es el mayor";
-            else if(n1<n2 && n2>n3) echo "El segundo numero introducido es el mayor";
+            if($n1>$n2 && $n1>$n3) echo "El primer numero introducido es el mayor";
+            else if($n1<$n2 && $n2>$n3) echo "El segundo numero introducido es el mayor";
             else echo "El tercer numero introducido es el mayor";
         }
     ?>
